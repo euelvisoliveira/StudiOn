@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <!-- nessa parte e o lugar onde o navegadir vai buscar as inforemacoes-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Studion</title>
+  </head>
+
+  <!-- body nao e unica parte de termo atonomia da pagina -->
+  <body>
+    <nav class="navbar">
+      <div class="container navbar__container">
+        <h1 class="logo-studion">
+          Studi<span class="copy--primary">on</span>
+          <span class="logo-studion__subtitle">Eventos</span>
+        </h1>
+        <ul class="navbar__links">
+          <li>
+            <a href="enterprise.html"> Empresa </a>
+          </li>
+          <li>
+            <a href="events.html"> Eventos </a>
+          </li>
+          <li>
+            <a href="gallery.html"> Galeria </a>
+          </li>
+          <li>
+            <a href="testimonials.html"> Depoimentos </a>
+          </li>
+          <li>
+            <a href="contact.html"> Contatos </a>
+          </li>
+        </ul>
+        <button class="navbar__menu-btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- cabecalho onde seria a navegacao -->
+    <header>
+      <div class="slider">
+        <div class="slide">
+          <img
+            class="slide__background-image"
+            src="../assets/banner.jpg"
+            alt="Studion banner"
+          />
+          <div class="slide__copy">
+            <div class="slide__copy__container">
+              <h6>
+                <span class="copy--primary">Próximo evento</span> - Dia 25 de
+                setembro às 19h
+              </h6>
+              <h2><span class="copy--primary">Creative</span> Minds</h2>
+              <button class="btn btn--slide">Saiba Mais</button>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <img
+            class="slide__background-image"
+            src="../assets/banner2.jpg"
+            alt="Studion banner"
+          />
+          <div class="slide__copy">
+            <div class="slide__copy__container">
+              <h6>
+                <span class="copy--primary">Próximo evento</span> - Dia 25 de
+                setembro às 19h
+              </h6>
+              <h2><span class="copy--primary">FEST</span> FORWARD</h2>
+              <button class="btn btn--slide">Saiba Mais</button>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <img
+            class="slide__background-image"
+            src="../assets/banner3.jpg"
+            alt="Studion banner"
+          />
+          <div class="slide__copy">
+            <div class="slide__copy__container">
+              <h6>
+                <span class="copy--primary">Próximo evento</span> - Dia 25 de
+                setembro às 19h
+              </h6>
+              <h2><span class="copy--primary">SHOW</span> EVENT</h2>
+              <button class="btn btn--slide">Saiba Mais</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- onde vai receber os conteudo principais -->
+    <main>
+      <section id="counter" class="counter">
+        <ul class="container counter__container">
+          <li>
+            <h3>
+              <span class="counter__number">+ de 500</span>
+              <small> eventos realizados </small>
+            </h3>
+          </li>
+          <li>
+            <h3>
+              <span class="counter__number"> + de 1.000.000</span>
+              <small> de ingressos vendidos </small>
+            </h3>
+          </li>
+          <li>
+            <h3>
+              <span class="counter__number">+ de 300</span>
+              <small> empresas atendidas </small>
+            </h3>
+          </li>
+        </ul>
+      </section>
+
+      <section class="container institutional">
+        <img
+          class="institutional__image"
+          src="../assets/institutional.jpg"
+          alt="Studion institutional"
+        />
+        <div class="institutional__copy">
+          <h6>Fazemos o seu evento acontecer</h6>
+          <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
+            veniam amet autem alias fugiat, labore laborum ex soluta dolores
+            quidem vel dolorem facilis enim tempora doloremque exercitationem
+            omnis reprehenderit velit.
+          </p>
+          <button class="btn btn--institutional">Saiba Mais</button>
+        </div>
+      </section>
+
+      <section class="quote">
+        <div class="container quote__container">
+          <div class="quote__copy">
+            <h6>
+              Você informa a temática e nós planejamos um evento com tecnologia
+              e
+            </h6>
+            <h2><span class="copy--primary">Muito+ </span>Diversão</h2>
+            <button class="btn btn--quote">Fazer cotação</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- onde vamos colocar as informacoes de rodape -->
+    <footer class="footer">
+      <div class="container footer__container">
+        <h2 class="logo-studion">
+          Studi<span class="copy--primary">on</span
+          ><span class="logo-studion__subtitle">Eventos</span>
+        </h2>
+        <form class="footer__form">
+          <!-- LABEL representa uma legenda para um item em uma interface de usuário. Ele pode estar associado com um elemento de controle, colocando este dentro do elemento label , ou usando o atributo for . Tal controle é chamado o controle etiquetado do elemento etiqueta.-->
+          <label for="email">receba news e promoções</label>
+          <div class="footer__email">
+            <input id="email" type="email" placeholder="email" />
+            <button class="footer__form-button" type="submit">
+              <i class="fa-solid fa-paper-plane fa-2x"></i>
+            </button>
+          </div>
+          <!-- PLACEHOLDER e um apropriedade de texto que esta so segurando o lugar de alguma coisa -->
+        </form>
+        <ul class="footer__social">
+          <!-- essa parte do TARGET va fazer com que esse link abra em uma nova aba-->
+          <li>
+            <a href="https://facebook.com/" target="_blank">
+              <i class="fa-brands fa-facebook fa-2x"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/" target="_blank">
+              <span class="fa-stack">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://youtube.com/" target="_blank">
+              <i class="fa-solid fa-circle-play fa-2x"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <hr />
+      <p>
+        <small
+          >Studi<span class="copy--primary">ON</span> - Todos os direitos
+          reservados.</small
+        >
+      </p>
+    </footer>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
