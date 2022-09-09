@@ -612,7 +612,7 @@ ul {
 }
 
 .quote {
-  background-image: url(/assets/parallax.jpg);
+  background-image: url(./assets/parallax.jpg);
   background-repeat: no-repeat;
   background-size: auto 40%;
   background-position: 40% top;
