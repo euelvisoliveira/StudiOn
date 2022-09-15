@@ -36,3 +36,17 @@ $(document).ready(() => {
     }).then((message) => alert(message))
   })
 })
+
+ScrollReveal({
+  origin: 'rigth',
+  distance: '30px',
+  duration: 1100
+}).reveal(`
+header,
+#counter,
+#counter h3,
+section,
+section .institutional__image,
+institutional__copy,
+footer div
+`)
